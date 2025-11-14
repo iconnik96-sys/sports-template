@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* section 2 strats here */
+.scores
+{
+    font-size: 50px;
+}
+
+.dash
+{
+    font-size: 54px;
+
+}
+
+.wallance
+{
+    font-size: 20px;
+}
+.bears
+{
+    font-size: 11px;
+}
+
+/* section 3 starts here */
+
+.sec3
+{
+    background-image: url(../images/background/h2-img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec3d1
+{
+    padding-top: 80px;
+}
+
+.match
+{
+    font-size: 45px;
+}
+
+.time
+{
+    font-size: 80px;
+}
+.andrew
+{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.bio
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.player
+{
+    padding:  120px 0;
+}
+.box
+{
+    height: 320px;
+    width: 320px;
+}
+
+
+.s1
+{
+    padding-top: 60px;
+}
+
+
+.img
+{
+    height: 100%;
+    width: 100%;
+}
+
+ .slider {
+      overflow: hidden;
+      width: 100%;
+      background: #f8f8f8;
+      padding: 20px 0;
+    }
+
+    .slide-track {
+      display: flex;
+      width: calc(250px * 14); /* item width * number of items */
+      animation: scroll 20s linear infinite;
+    }
+
+    .slide1 {
+      width: 300px;
+      height: 466px;
+      margin: 0 10px;
+      background: #ddd;
+      border-radius: 10px;
+      flex-shrink: 0;
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .store
+    {
+        font-size: 54px;
+    }
+
+    .sec7
+    {
+        background-image: url(../images/background/h2-img-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .LOREM
+    {
+        font-size: 60px;
+
+    }
+
+    .lorem
+    {
+        /* padding: 150px 20px; */
+    }
+
+    .sec8
+{
+    background-image: url(../images/background/h2-img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.match
+{
+    font-size: 54px;
+}
+
+.sec6
+{
+    padding: 80px 0;
+}
+
+    @keyframes scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(calc(-250px * 4)); }
+    }
+
+@media(min-width:768px)
+{
+    
+    /* .box
+    {
+        height: 384px;
+        width: 384px;
+    } */
+
+    .lorem
+    {
+        padding: 150px 40px;
+    }
+
+    .box
+{
+    height: 384px;
+    width: 384px;
+}
+   
+    
+
+}
+
+@media(min-width:992px)
+{
+    .lorem
+    {
+        /* padding: 200px 250px; */
+    }
+
+    .box
+{
+    height: 256px;
+    width: 256px;
+}
+
+}
